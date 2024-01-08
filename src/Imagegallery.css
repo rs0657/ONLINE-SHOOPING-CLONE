@@ -1,5 +1,8 @@
 /* Imagegallery.css */
 
+body {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
 
 .Project1 {
     display: flex;
@@ -11,7 +14,8 @@
     width: 300px;
     margin: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 7px solid #403f3f72;
+    background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -19,6 +23,7 @@
 
 .Project1>div img {
     width: 100%;
+    max-width: fit-content;
     max-height: 200px;
     object-fit: cover;
     border-radius: 8px;
@@ -55,39 +60,54 @@ button {
 
 .ALL {
     FONT-SIZE: 18PX;
-    background-color: blueviolet;
-    color: yellow;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .LAPTOP {
     FONT-SIZE: 18PX;
-    background-color: chocolate;
-    color: #2f008d;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .MOBILE {
     FONT-SIZE: 18PX;
-    background-color: #42A5F5;
-    color: #ff3b3bf2;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .DESKTOP {
     FONT-SIZE: 18PX;
-    background-color: #4FC3F7;
-    color: #388E3C;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.ALL:hover {
+    color: blue;
+}
+
+.LAPTOP:hover {
+    color: blue;
+}
+
+.MOBILE:hover {
+    color: blue;
+}
+
+.DESKTOP:hover {
+    color: blue;
 }
 
 .Project1>div button {
-    background-color: gray;
-    color: black;
+    background-color: #FFF;
+    color: grey;
     padding: 10px;
-    border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s;
 }
 
 .Project1>div button:hover {
-    background-color: gray;
+    color: blue;
 }
