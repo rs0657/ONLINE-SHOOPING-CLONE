@@ -1,0 +1,93 @@
+/* Imagegallery.css */
+
+
+.Project1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Project1>div {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Project1>div img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Project1>div h2 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.Project1>div h3 {
+    color: #e44d26;
+    font-size: 14px;
+}
+
+.Project1>div p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+button {
+    padding: 10px 20px;
+    /* Adjust the padding as needed */
+    margin: 5px;
+    /* Adjust the margin as needed */
+}
+
+
+.SAMPLE {
+    FONT-SIZE: 18PX;
+    BACKGROUND-COLOR: aquamarine;
+    COLOR: darkblue;
+}
+
+.ALL {
+    FONT-SIZE: 18PX;
+    background-color: blueviolet;
+    color: yellow;
+}
+
+.LAPTOP {
+    FONT-SIZE: 18PX;
+    background-color: chocolate;
+    color: #2f008d;
+}
+
+.MOBILE {
+    FONT-SIZE: 18PX;
+    background-color: #42A5F5;
+    color: #ff3b3bf2;
+}
+
+.DESKTOP {
+    FONT-SIZE: 18PX;
+    background-color: #4FC3F7;
+    color: #388E3C;
+}
+
+.Project1>div button {
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.Project1>div button:hover {
+    background-color: gray;
+}
